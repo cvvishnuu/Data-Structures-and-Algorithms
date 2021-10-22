@@ -80,6 +80,21 @@ class DoublyLinkedList {
         }
     }
 
+    reverse() {
+        let firstNode = this.head;
+        let secondNode = firstNode.next;
+        while(secondNode) {
+            let temp = secondNode.next;
+            secondNode.next = firstNode;
+            secondNode.previous = temp
+            firstNode = secondNode
+            secondNode = temp
+        }
+        this.head.next = null;
+        this.head = firstNode
+        this.printList()
+    }
+
     insert(index, value) {
         if(index === 0) {
             this.prepend(value)
@@ -135,10 +150,10 @@ myDoublyLinkedList.append(3);
 myDoublyLinkedList.prepend(0);
 myDoublyLinkedList.insert(2, 22)
 
-myDoublyLinkedList.remove(2)
+
 
 myDoublyLinkedList.printList()
-console.log(myDoublyLinkedList.size())
+myDoublyLinkedList.reverse()
 
 
 
