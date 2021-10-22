@@ -103,6 +103,22 @@ class LinkedList {
         console.log(array)
     }
 
+    lookup(index) {
+        if(index === 0){
+            return this.head;
+        } else if(index >= this.length) {
+            return this.tail
+        } else{
+            let i = 1;
+            let currentNode = this.head;
+            while(i < index) {
+                currentNode = currentNode.next
+                i++
+            }
+            return currentNode.next
+        }
+    }
+
 }
 
 const myLinkedList = new LinkedList(10);
@@ -118,9 +134,10 @@ myLinkedList.insert(2, 7)
 myLinkedList.insert(2, 9)
 myLinkedList.insert(200, 8)
 
-myLinkedList.remove(200)
-myLinkedList.remove(200)
+// myLinkedList.remove(200)
+// myLinkedList.remove(200)
 
+console.log(myLinkedList.lookup(20))
 
+myLinkedList.printList()
 console.log(myLinkedList.size())
-console.log(myLinkedList.head)
