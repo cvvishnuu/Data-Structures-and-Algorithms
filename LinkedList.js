@@ -119,6 +119,20 @@ class LinkedList {
         }
     }
 
+    reverse() {
+        let firstNode = this.head;
+        let secondNode = firstNode.next;
+        while(secondNode) {
+            let temp = secondNode.next;
+            secondNode.next = firstNode;
+            firstNode = secondNode
+            secondNode = temp
+        }
+        this.head.next = null;
+        this.head = firstNode
+        this.printList()
+    }
+
 }
 
 const myLinkedList = new LinkedList(10);
@@ -141,3 +155,5 @@ console.log(myLinkedList.lookup(20))
 
 myLinkedList.printList()
 console.log(myLinkedList.size())
+
+myLinkedList.reverse()

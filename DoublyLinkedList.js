@@ -142,4 +142,4 @@ console.log(myDoublyLinkedList.size())
 
 
 
-console.log(myDoublyLinkedList.tail.previous.previous)
+
