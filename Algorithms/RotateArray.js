@@ -42,6 +42,3 @@ const rotateLeftt = (nums, k) => {
 
 const array = [1,2,3,4,5]
 const shift = 3
-
-
-console.log(rotateLeftt(array, shift));
