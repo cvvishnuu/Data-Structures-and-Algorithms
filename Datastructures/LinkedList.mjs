@@ -135,25 +135,28 @@ class LinkedList {
 
 }
 
-const myLinkedList = new LinkedList(10);
-myLinkedList.append(20)
-myLinkedList.append(111)
-myLinkedList.append(150)
-myLinkedList.append(151)
-myLinkedList.append(152)
-myLinkedList.prepend(5)
-myLinkedList.prepend(1)
+// const myLinkedList = new LinkedList(10);
+// myLinkedList.append(20)
+// myLinkedList.append(111)
+// myLinkedList.append(150)
+// myLinkedList.append(151)
+// myLinkedList.append(152)
+// myLinkedList.prepend(5)
+// myLinkedList.prepend(1)
 
-myLinkedList.insert(2, 7)
-myLinkedList.insert(2, 9)
-myLinkedList.insert(200, 8)
+// myLinkedList.insert(2, 7)
+// myLinkedList.insert(2, 9)
+// myLinkedList.insert(200, 8)
 
-// myLinkedList.remove(200)
-// myLinkedList.remove(200)
+// // myLinkedList.remove(200)
+// // myLinkedList.remove(200)
 
-console.log(myLinkedList.lookup(20))
+// console.log(myLinkedList.lookup(20))
 
-myLinkedList.printList()
-console.log(myLinkedList.size())
+// myLinkedList.printList()
+// console.log(myLinkedList.size())
 
-myLinkedList.reverse()
+// myLinkedList.reverse()
+
+
+export default LinkedList;
