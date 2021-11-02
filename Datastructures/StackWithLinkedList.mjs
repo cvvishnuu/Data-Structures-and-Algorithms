@@ -53,18 +53,19 @@ class Stack {
 
 }
 
-const myStack = new Stack() 
-myStack.push(5);
-myStack.push(10);
-myStack.push(15);
-myStack.push(20);
+// const myStack = new Stack() 
+// myStack.push(5);
+// myStack.push(10);
+// myStack.push(15);
+// myStack.push(20);
 
 
 
-myStack.push(20);
-myStack.push(15);
-myStack.push("discord");
-console.log(myStack.pop())
-console.log(myStack.peek())
+// myStack.push(20);
+// myStack.push(15);
+// myStack.push("discord");
+// console.log(myStack.pop())
+// console.log(myStack.peek())
 
 
+export default Stack;

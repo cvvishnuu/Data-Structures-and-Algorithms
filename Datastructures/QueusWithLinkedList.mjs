@@ -45,17 +45,19 @@ class Queue {
     }
 }
 
-const myQueue = new Queue()
+// const myQueue = new Queue()
 
-myQueue.enqueue(1)
-myQueue.enqueue(2)
-myQueue.enqueue(3)
-console.log(myQueue.dequeue())
-console.log(myQueue.dequeue())
-console.log(myQueue.dequeue())
-console.log(myQueue.peek())
-myQueue.enqueue(1)
-myQueue.enqueue(2)
-myQueue.enqueue(3)
-console.log(myQueue.peek())
-console.log(myQueue.size())
+// myQueue.enqueue(1)
+// myQueue.enqueue(2)
+// myQueue.enqueue(3)
+// console.log(myQueue.dequeue())
+// console.log(myQueue.dequeue())
+// console.log(myQueue.dequeue())
+// console.log(myQueue.peek())
+// myQueue.enqueue(1)
+// myQueue.enqueue(2)
+// myQueue.enqueue(3)
+// console.log(myQueue.peek())
+// console.log(myQueue.size())
+
+export default Queue;

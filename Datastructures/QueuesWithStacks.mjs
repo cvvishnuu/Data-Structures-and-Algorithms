@@ -28,14 +28,16 @@ class QueueWithStacks {
     }
 }
 
-const myQueue = new QueueWithStacks()
+// const myQueue = new QueueWithStacks()
 
-console.log(myQueue.enqueue(1))
-console.log(myQueue.enqueue(2))
-console.log(myQueue.peek())
-console.log(myQueue.dequeue())
-console.log(myQueue.peek())
-console.log(myQueue.enqueue(1))
-console.log(myQueue.peek())
-console.log(myQueue.dequeue())
-console.log(myQueue.peek())
+// console.log(myQueue.enqueue(1))
+// console.log(myQueue.enqueue(2))
+// console.log(myQueue.peek())
+// console.log(myQueue.dequeue())
+// console.log(myQueue.peek())
+// console.log(myQueue.enqueue(1))
+// console.log(myQueue.peek())
+// console.log(myQueue.dequeue())
+// console.log(myQueue.peek())
+
+export default QueueWithStacks;

@@ -55,14 +55,16 @@ class HashTable {
       }
 }
 
-const myHashTable = new HashTable(50);
+// const myHashTable = new HashTable(50);
 
-myHashTable.put("grapes", 1000);
-myHashTable.put("apples", 2000);
+// myHashTable.put("grapes", 1000);
+// myHashTable.put("apples", 2000);
 
 
 
-console.log(myHashTable.get("grapes"))
-console.log(myHashTable.get("apples"))
+// console.log(myHashTable.get("grapes"))
+// console.log(myHashTable.get("apples"))
 
-console.log(myHashTable.keys())
+// console.log(myHashTable.keys())
+
+export default HashTable;

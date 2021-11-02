@@ -143,18 +143,18 @@ class DoublyLinkedList {
 
 }
 
-const myDoublyLinkedList = new DoublyLinkedList(1);
+// const myDoublyLinkedList = new DoublyLinkedList(1);
 
-myDoublyLinkedList.append(2);
-myDoublyLinkedList.append(3);
-myDoublyLinkedList.prepend(0);
-myDoublyLinkedList.insert(2, 22)
-
-
-
-myDoublyLinkedList.printList()
-myDoublyLinkedList.reverse()
+// myDoublyLinkedList.append(2);
+// myDoublyLinkedList.append(3);
+// myDoublyLinkedList.prepend(0);
+// myDoublyLinkedList.insert(2, 22)
 
 
 
+// myDoublyLinkedList.printList()
+// myDoublyLinkedList.reverse()
+
+
+export default DoublyLinkedList;
 
